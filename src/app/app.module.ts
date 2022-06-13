@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SlideshowComponent } from './shared/slideshow/slideshow.component';
 import { NavMenuComponent } from './core/components/nav-menu/nav-menu.component';
+import { ImprintComponent } from './pages/imprint/imprint/imprint.component';
+import { DataProtectionComponent } from './pages/data-protection/data-protection/data-protection.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SlideshowComponent,
-    NavMenuComponent
+    NavMenuComponent,
+    ImprintComponent,
+    DataProtectionComponent
   ],
   imports: [
     BrowserModule,

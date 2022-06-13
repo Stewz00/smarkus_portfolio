@@ -1,12 +1,15 @@
-<header>
-    <img src="assets/images/shopping-cart-filled-128.ico">
+<header [class.header-dark]="darkMode">
 
-    <div>
-        <a href="">Home</a>
-        <a href="">Curriculum Vitae</a>
-        <a href="">Projects</a>
-        <a href="">Impressum</a>
+    <img *ngIf="darkMode" [routerLink]="['/']" src="assets/images/filler_black.ico">
+    <img *ngIf="!darkMode" [routerLink]="['/']" src="assets/images/filler_white.ico">
 
+    <div [class.dark-links]="darkMode">
+        <a [routerLink]="['/']">Home</a>
+        <a [routerLink]="['/curriculum-vitae']">Curriculum Vitae</a>
+        <a [routerLink]="['/projects']">Projects</a>
+        <a [routerLink]="['/imprint']" routerLinkActive="router-link-active">Imprint</a>
+        <a [routerLink]="['/data-protection']" routerLinkActive="router-link-active">Data Protection</a>
+        
     </div>
 
 </header>
