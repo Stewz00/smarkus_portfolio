@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { provideProtractorTestingSupport } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-root-wooow',
+  selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  title = 'xd its working';
+export class AppComponent  {
+ 
 }
