@@ -1,0 +1,13 @@
+Needs to finish Portfolio page
+
+Logo & Fotos:
+
+Projects:
+
+Angular:
+Portfolio, Ring Of Fire, Pokedex, Kanban Board
+
+JS: 
+Sharkie, Quiz Time
+
+

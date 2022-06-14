@@ -1,13 +1,14 @@
 header {
     position: absolute;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     top:0;
     left: 0;
     right: 0;
     height: 80px;
     z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 10px 120px 0 120px;
 
     a {
