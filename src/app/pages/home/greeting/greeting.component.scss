@@ -7,21 +7,35 @@
 .left-side-greeting-bg {
 
     background-color: white;
-    width: 20%;
+    width: 165px;
 }
 
 .greetings-text-btn {
     position: relative;
     height: 600px;
     max-width: 300px;
-    left: 10%;
 }
 
 .greetings-text {
     position: absolute;
-    top: 10%;
-    font-size: 80px;
+    top: 4%;
     width: 460px;
+}
+
+.socialm-btn-container {
+    position: absolute;
+    display: flex;
+    bottom: 14%;
+
+}
+
+.socialm-btn {
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 27px 0 0;
+
 }
 
 .greetings-download-cv {
@@ -32,7 +46,8 @@
     background-color: #FEE383;
     border: none;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: 200;
+    font-size: 24px;
 }
 
 .right-side-greeting-bg {
@@ -40,11 +55,11 @@
     align-items: flex-end;
     justify-content: flex-end;
     background-color: beige;
-    width: 80%;
+    width: 100%;
 
     img {
         height: 500px;
-        width: 500px;
+        width: 800px;
         object-fit: cover;
     }
 }

@@ -1,0 +1,43 @@
+.picture-container {
+    position: relative;
+    padding: 40px 0 40px 0;
+}
+
+.about-nature-img {
+
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.about-comment-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #FEE383;
+    right: 12%;
+    bottom: -10%;
+    padding: 27px 80px 27px 27px;
+
+}
+.max-w{
+width: 50%;
+}
+
+.category {
+    color: #B2A57E;
+    font-size: 12px;
+    padding: 4px 0 4px 0px
+}
+
+.cat-value {
+    font-size: 12px;
+}
+.signature{
+  height: 50px;
+  opacity: 0.6;
+}
+.about-text{
+    color:#6D6D6D;
+}
