@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav-menu',
@@ -7,9 +7,32 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./nav-menu.component.scss'],
 })
 export class NavMenuComponent implements OnInit {
+  constructor(public router: Router) {}
+  dyeHeaderBool: boolean = false;
 
+  ngOnInit(): void {
+    this.dyeHeaderInterval;
+  }
 
-  constructor() {}
+  dyeHeaderInterval = setInterval(() => {
+    if (this.positionForColoringReached(this.getWindowYPosition())) {
+      return (this.dyeHeaderBool = true);
+    } else {
+      return (this.dyeHeaderBool = false);
+    }
+  }, 150);
 
-  ngOnInit(): void {}
+  positionForColoringReached(windowPosition: number): boolean {
+    if (windowPosition > 100) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  getWindowYPosition() {
+    let windowPosition: number;
+    windowPosition = window.scrollY;
+    return windowPosition;
+  }
 }

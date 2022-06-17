@@ -10,11 +10,20 @@ export class FooterComponent implements OnInit {
     today: any = new Date();
     currentYear:number = this.today.getFullYear()
     
+    scrollUp() {
+       window.scroll({
+         top: 0,
+         left: 0,
+         behavior: 'smooth',
+       }); 
+    }
+    
     
 
   constructor() { }
 
-  ngOnInit(): void {
+    ngOnInit(): void {
+      this.scrollUp();
   }
 
 }

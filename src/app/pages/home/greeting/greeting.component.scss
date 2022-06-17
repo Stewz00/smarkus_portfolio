@@ -1,7 +1,7 @@
 .greeting-bg {
     max-width: 100%;
     display: flex;
-    height: 600px;
+    height: 850px;
 }
 
 .left-side-greeting-bg {
@@ -18,14 +18,14 @@
 
 .greetings-text {
     position: absolute;
-    top: 4%;
+    top: 19%;
     width: 460px;
 }
 
 .socialm-btn-container {
     position: absolute;
     display: flex;
-    bottom: 14%;
+    bottom: -25%;
 
 }
 
@@ -42,7 +42,7 @@
     position: absolute;
     height: 75px;
     width: 200px;
-    bottom: -5%;
+    bottom: -47%;
     background-color: #FEE383;
     border: none;
     cursor: pointer;
@@ -58,8 +58,8 @@
     width: 100%;
 
     img {
-        height: 500px;
-        width: 800px;
+        height: 750px;
+        width: 875px;
         object-fit: cover;
     }
 }

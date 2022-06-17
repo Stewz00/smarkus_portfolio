@@ -1,7 +1,7 @@
 <div class = "footer-container">
     <div class ="footer-links-container">
-        <a class="footer-links" [routerLink]="['/imprint']" routerLinkActive="router-link-active">Imprint</a><span class ="footer-links"> - </span>
-        <a class="footer-links" [routerLink]="['/data-protection']" routerLinkActive="router-link-active">Data Protection</a>
+        <a class="footer-links" (click)="scrollUp()" [routerLink]="['/imprint']" routerLinkActive="router-link-active">Imprint</a><span class ="footer-links"> - </span>
+        <a class="footer-links" (click)="scrollUp()" [routerLink]="['/data-protection']" routerLinkActive="router-link-active">Data Protection</a>
     </div>
     <div class ="footer-name-container">
         <span class = "footer-name">Markus Stitka • {{currentYear}}</span>
