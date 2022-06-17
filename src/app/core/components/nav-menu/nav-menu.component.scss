@@ -1,45 +1,39 @@
+// Für Header später background-color: white;
+// box-shadow: 2px 2px 9px rgb(0 0 0 / 10%);
+// }
+
 header {
     position: absolute;
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-    top:0;
+    top: 0;
     left: 0;
     right: 0;
     height: 80px;
     z-index: 1;
     padding: 10px 120px 0 120px;
-    
+
+.beige-header{
+    background-color: black;
+}
+
     a {
-        color: white;
         margin: 0px 16px 0px 16px;
         text-decoration: none;
         font-weight: 700;
-
-        &:hover {
-            color: rgba(255, 255, 255, 0.8)
-        }
-    }
-
-    img {
-        height: 50px;
-        cursor: pointer;
-    }
-
-
-
-}
-
-.dark-links {
-    a {
         color: black;
 
         &:hover {
             color: rgba(0, 0, 0, 0.8);
         }
     }
-    
-
 }
 
+
+
+img {
+    height: 50px;
+    cursor: pointer;
+}

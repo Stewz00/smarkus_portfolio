@@ -1,45 +1,57 @@
-form{
+form {
     display: flex;
     flex-direction: column;
 }
-.contact-left-side{
+
+.contact-left-side {
     width: 50%;
-    padding-right:40px;
+    padding-right: 40px;
 }
-.contact-right-side{
+
+.contact-right-side {
     width: 50%;
     margin-top: 65px;
     padding-left: 40px;
 }
-.contact-container{
+
+.contact-container {
     display: flex;
     background-color: #FEE383;
-    padding:0 200px 0 200px;
+    padding: 0 200px 65px 200px;
 }
-h3{
+
+h3 {
     font-size: 50px;
 }
-.go-btn{
-   background-color: black;
-   color: white; 
-   height: 40px;
-   cursor: pointer;
+
+.go-btn {
+    background-color: black;
+    color: white;
+    height: 60px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+
+    &:hover{
+        background-color:rgb(20, 20, 20)
+    }
 }
-textarea{
-    min-height:100px;
-    margin-bottom:30px;
+
+textarea {
+    min-height: 100px;
+    margin-bottom: 30px;
     font-family: 'Poppins', sans-serif;
 }
 
-.resize-off{
+.resize-off {
     resize: none;
-    
 }
-input{
+
+input {
     height: 35px;
     font-family: 'Poppins', sans-serif;
 }
 
-.pad-b-t{
-    padding:15px 0 15px 0;
+.pad-b-t {
+    padding: 15px 0 15px 0;
 }

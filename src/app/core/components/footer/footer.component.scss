@@ -1,0 +1,28 @@
+.footer-container{
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F6F6F6;
+}
+
+.footer-links-container{
+     
+    cursor: pointer;
+    color: #9F9F9F;
+    a{
+        color: #9F9F9F;
+        text-decoration: none;
+    }
+    
+}
+
+.footer-name-container{
+    color:#888888;
+    padding: 15px;
+}
+
+.footer-links{
+    
+}

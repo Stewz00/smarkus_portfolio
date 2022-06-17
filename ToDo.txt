@@ -1,4 +1,4 @@
-Needs to finish Portfolio page
+Needs to finish Portfolio page:
 
 Logo & Fotos:
 
@@ -10,4 +10,10 @@ Portfolio, Ring Of Fire, Pokedex, Kanban Board
 JS: 
 Sharkie, Quiz Time
 
+Header Weiß und Box Shadow
+
+Work Section Manu fragen was da sinnvoll wäre (am dienstag 4:30-6:00pm)
+send mail einbauen (modul 5 php)
+contact styling
+imprint
 
