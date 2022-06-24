@@ -63,3 +63,28 @@
         object-fit: cover;
     }
 }
+
+@media (max-width: 1300px) {
+    h1{
+        font-size: 60px;
+    }
+    .greetings-download-cv{
+        bottom: -5%;
+    }
+
+    .greetings-text{}
+    .socialm-btn-container{
+        bottom: 6rem;
+    }
+   
+    .greeting-bg{
+        height: 37rem;
+    }
+
+    .right-side-greeting-bg{
+        img{
+            height: 32rem;
+                width: 37rem;
+        }
+    }
+}

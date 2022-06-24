@@ -14,3 +14,9 @@ h2 {
 .section-padding-right{
     padding-right: 200px;
 }
+
+@media (max-width: 1300px) {
+    .section-padding-left{
+        padding-left: 130px;
+    }
+}
