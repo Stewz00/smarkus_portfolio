@@ -16,7 +16,6 @@ header {
     padding: 10px 120px 0 120px;
     transition: all 0.5s ease;
 
-
     a {
         margin: 0px 16px 0px 16px;
         text-decoration: none;
@@ -40,7 +39,54 @@ header {
     transition: all 0.5s ease;
 }
 
-img {
-    height: 50px;
-    cursor: pointer;
+.mobile-container {
+    display: none;
+
+    img {}
+
+}
+
+@media (max-width:675px) {
+    header {
+        display: none;
+
+    }
+
+    .mobile-container {
+        display: block;
+        position: relative;
+        position: fixed;
+
+
+        width: 100vw;
+        height: 80px;
+        z-index: 1;
+
+        img {
+            position: absolute;
+            top: 30px;
+            left: 100px;
+            height: 30px;
+            width: 30px;
+            cursor: pointer;
+        }
+
+        a {
+            display: none;
+        }
+
+    }
+
+}
+
+@media (max-width: 600px) {
+    .mobile-container {
+        background-color: #F6F6F6;
+        box-shadow: 2px 2px 9px rgb(0 0 0 / 10%);
+        background-color: white;
+        box-shadow: 2px 2px 9px rgb(0 0 0 / 10%);
+        transition: all 0.5s ease;
+    }
+
+    
 }

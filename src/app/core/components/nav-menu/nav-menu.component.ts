@@ -23,7 +23,7 @@ export class NavMenuComponent implements OnInit {
   }, 150);
 
   positionForColoringReached(windowPosition: number): boolean {
-    if (windowPosition > 100) {
+    if (windowPosition > 80) {
       return true;
     } else {
       return false;

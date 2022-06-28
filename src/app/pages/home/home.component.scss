@@ -30,3 +30,8 @@ h2 {
         padding-left: 100px;
     }
 }
+@media (max-width: 600px) {
+    .section-padding-left {
+        padding-left: 0px;
+    }
+}

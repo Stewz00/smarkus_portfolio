@@ -63,46 +63,49 @@
         object-fit: cover;
     }
 }
-@media (max-width: 1500px){
+
+@media (max-width: 1500px) {
     .right-side-greeting-bg {
-            img {
-                
-                width: 43rem;
-            }
+        img {
+
+            width: 43rem;
         }
+    }
 }
 
 @media (max-width: 1300px) {
-    h1{
+    h1 {
         font-size: 60px;
     }
-    .greetings-download-cv{
+
+    .greetings-download-cv {
         bottom: -5%;
-       
+
     }
 
-    
-    .socialm-btn-container{
+
+    .socialm-btn-container {
         bottom: 6rem;
     }
-   
-    .greeting-bg{
+
+    .greeting-bg {
         height: 37rem;
     }
 
-    .right-side-greeting-bg{
-        img{
+    .right-side-greeting-bg {
+        img {
             height: 32rem;
-                width: 37rem;
+            width: 37rem;
         }
     }
-} 
+}
+
 @media (max-width: 1000px) {
-h1 {
+    h1 {
         font-size: 55px;
     }
 
-      
+
 
     .right-side-greeting-bg {
         img {
@@ -114,20 +117,20 @@ h1 {
 
 @media (max-width: 850px) {
     h1 {
-            font-size: 40px;
-        }
-    
-        .greetings-download-cv {
-            bottom: 23%;
-            height: 60px;
-                width: 170px;
-                font-size: 20px;
-        }
-    
-    
-        .socialm-btn-container {
-            bottom: 14rem;
-        }
+        font-size: 40px;
+    }
+
+    .greetings-download-cv {
+        bottom: 23%;
+        height: 60px;
+        width: 170px;
+        font-size: 20px;
+    }
+
+
+    .socialm-btn-container {
+        bottom: 14rem;
+    }
 
     .greeting-bg {
         height: 27rem;
@@ -140,29 +143,50 @@ h1 {
         }
     }
 }
-@media (max-width: 725px) {
 
+
+@media (max-width: 675px) {
     h1 {
-            font-size: 32px;
-        }
-    
-        .greetings-download-cv {
-            bottom: 33%;
-        }
-    
-    
-        .socialm-btn-container {
-            bottom: 17rem;
-        }
-
-    .greeting-bg {
-        height: 23rem;
+        font-size: 32px;
     }
 
     .right-side-greeting-bg {
         img {
             height: 18rem;
             width: 18rem;
+        }
+    }
+
+    .greeting-bg {
+        height: 21rem;
+    }
+
+    .greetings-text {
+        top: 12%;
+    }
+
+    .greetings-download-cv {
+        bottom: 38%;
+
+    }
+
+    .socialm-btn-container {
+        bottom: 19rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #greeting{
+        display: none;
+    }
+    
+    .mobil-greeting-container {
+        display: block;
+        
+        img{
+            object-fit: cover;
+            height: 100vh;
+            width: 100vw;
         }
     }
 }
