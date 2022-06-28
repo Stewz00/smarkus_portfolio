@@ -63,6 +63,14 @@
         object-fit: cover;
     }
 }
+@media (max-width: 1500px){
+    .right-side-greeting-bg {
+            img {
+                
+                width: 43rem;
+            }
+        }
+}
 
 @media (max-width: 1300px) {
     h1{
