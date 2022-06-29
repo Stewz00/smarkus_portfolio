@@ -7,12 +7,19 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav-menu.component.scss'],
 })
 export class NavMenuComponent implements OnInit {
-  constructor(public router: Router) {}
+    constructor(public router: Router) { }
+    menuActive: boolean = false;
   dyeHeaderBool: boolean = false;
 
   ngOnInit(): void {
     this.dyeHeaderInterval;
   }
+    toggleMenu(): void {
+        //workaround due to href did not work
+        setTimeout(() => {
+        return this.menuActive = !this.menuActive;
+        }, 1)
+    }
 
   dyeHeaderInterval = setInterval(() => {
     if (this.positionForColoringReached(this.getWindowYPosition())) {
@@ -35,4 +42,5 @@ export class NavMenuComponent implements OnInit {
     windowPosition = window.scrollY;
     return windowPosition;
   }
+    
 }

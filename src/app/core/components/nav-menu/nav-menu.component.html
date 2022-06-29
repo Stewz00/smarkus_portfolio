@@ -1,19 +1,22 @@
-<div [class.dyiedHeader]="(dyeHeaderBool && (router.url!='/imprint' && router.url!='/data-protection'))"
-    [class.beige-header]="(router.url=='/imprint' || router.url=='/data-protection')" class="mobile-container">
-    <img src="/assets/images/menubtn.ico">
-    <div class="mobile-nav-links">
-        <a href="#greeting">Work</a>
-        <a href="#projects">Projects</a> 
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </div>
-</div>
 <header [class.dyiedHeader]="(dyeHeaderBool && (router.url!='/imprint' && router.url!='/data-protection'))"
-    [class.beige-header]="(router.url=='/imprint' || router.url=='/data-protection')">
+    [class.beige-header]="(router.url=='/imprint' || router.url=='/data-protection')" class="mobile-container fixed"
+    >
+    <img (click)="toggleMenu()" src="/assets/images/menubtn.ico">
+    <div [ngStyle]="{'margin-right':menuActive? '0em' : '-9em'}" [class.d-none]="!menuActive" class="mobile-nav-links">
+        <a (click)="toggleMenu()" align="right" class="mobile-nav-link" href="#m-greeting">Start</a>
+        <a (click)="toggleMenu()" align="right" class="mobile-nav-link" href="#skills">Skills</a>
+        <a (click)="toggleMenu()" align="right" class="mobile-nav-link" href="#projects">Projects</a> 
+        <a (click)="toggleMenu()" align="right" class="mobile-nav-link" href="#about">About</a>
+        <a (click)="toggleMenu()" align="right" class="mobile-nav-link" href="#contact">Contact</a>
+    </div>
+</header>
+<header [class.dyiedHeader]="(dyeHeaderBool && (router.url!='/imprint' && router.url!='/data-protection'))"
+    [class.beige-header]="(router.url=='/imprint' || router.url=='/data-protection')" class="desktop-container fixed">
 
 
     <div class="nav-container">
-        <a href="#greeting">Work</a>
+        <a href="#greeting">Start</a>
+        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a> 
         <a href="#about">About</a>
         <a href="#contact">Contact</a>

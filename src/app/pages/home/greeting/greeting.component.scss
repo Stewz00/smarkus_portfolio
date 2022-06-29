@@ -64,6 +64,10 @@
     }
 }
 
+.mobil-greeting-container {
+    display: none;
+}
+
 @media (max-width: 1500px) {
     .right-side-greeting-bg {
         img {
@@ -147,7 +151,7 @@
 
 @media (max-width: 675px) {
     h1 {
-        font-size: 32px;
+        font-size: 40px;
     }
 
     .right-side-greeting-bg {
@@ -158,7 +162,7 @@
     }
 
     .greeting-bg {
-        height: 21rem;
+        height: 23rem;
     }
 
     .greetings-text {
@@ -166,27 +170,49 @@
     }
 
     .greetings-download-cv {
-        bottom: 38%;
+        bottom: 35%;
 
     }
 
     .socialm-btn-container {
-        bottom: 19rem;
+        bottom: 18rem;
     }
 }
 
 @media (max-width: 600px) {
-    #greeting{
+    #greeting {
         display: none;
     }
-    
+
+    .greetings-text {
+        font-size: 2.8rem;
+        top: 0%;
+        left:8%
+    }
+
+    .greetings-text-btn {
+        max-width: 100%;
+        height: 400px;
+    }
+
+    .greetings-download-cv {
+        bottom: 0%;
+        left: 8%;
+        width: 84%;
+    }
+
+    .socialm-btn-container {
+        bottom: 23%;
+        left: 8%;
+    }
+
     .mobil-greeting-container {
         display: block;
-        
-        img{
+
+        img {
             object-fit: cover;
             height: 100vh;
-            width: 100vw;
+            width: 100%;
         }
     }
 }

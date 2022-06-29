@@ -11,11 +11,12 @@ import { ImprintComponent } from './pages/imprint/imprint.component';
 import { DataProtectionComponent } from './pages/data-protection/data-protection.component';
 //Home Page
 import { GreetingComponent } from './pages/home/greeting/greeting.component';
-import { WorkexperienceComponent } from './pages/home/workexperience/workexperience.component';
+
 import { ProjectsComponent } from './pages/home/projects/projects.component';
 import { AboutComponent } from './pages/home/about/about.component';
 import { ContactComponent } from './pages/home/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
+import { SkillsComponent } from './pages/home/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -26,10 +27,10 @@ import { HomeComponent } from './pages/home/home.component';
     FooterComponent,
     GreetingComponent,
     HomeComponent,
-    WorkexperienceComponent,
     ProjectsComponent,
     AboutComponent,
     ContactComponent,
+    SkillsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

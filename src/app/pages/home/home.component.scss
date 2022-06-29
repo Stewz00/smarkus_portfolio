@@ -9,29 +9,67 @@
 h2 {
     font-size: 54px;
     font-weight: 700;
-
+    margin: 10% 0 10% 0;
 }
-.section-padding-right{
+
+.section-padding-right {
     padding-right: 200px;
 }
 
 @media (max-width: 1300px) {
-    .section-padding-left{
-        padding-left: 130px;
+    .section-padding-left {
+        padding-left: 10%;
+    }
+
+    .section-padding-right {
+        padding-right: 10%;
     }
 }
+
 @media (max-width: 1000px) {
     .section-padding-left {
-        padding-left: 120px;
+        padding-left: 9%;
+    }
+
+    .section-padding-right {
+        padding-right: 9%;
     }
 }
+
 @media (max-width: 850px) {
     .section-padding-left {
-        padding-left: 100px;
+        padding-left: 8%;
+    }
+
+    .section-padding-right {
+        padding-right: 8%;
     }
 }
-@media (max-width: 600px) {
+
+@media (max-width: 700px) {
+    .mobile-app-greeting {
+        padding-left: 8% !important;
+    }
+
     .section-padding-left {
-        padding-left: 0px;
+        padding-left: 0;
+    }
+
+    .section-padding-right {
+        padding-right: 0
+    }
+
+    .mobile-section-pl {
+        padding-left: 8%;
+        padding-right: 8%;
+
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .mobile-app-greeting {
+        padding-left: 0!important;
     }
 }

@@ -1,0 +1,17 @@
+<h2 id="skills">Skills</h2>
+<div class="skills-container">
+    <div *ngFor="let skill of skills; let i=index" class="single-skill-container">
+        <div class="single-skill-img-body"><img class="single-skill-img" src="{{skill.urlPath}}"></div>
+        <div class="single-skill-text-alignment">
+        <span>
+            {{skill.name}}
+        </span></div>
+        <!-- <div class="single-skill-container"><img><div></div>
+    <div class="single-skill-container"><img><div></div>
+    <div class="single-skill-container"><img><div></div>
+    <div class="single-skill-container"><img><div></div>
+    <div class="single-skill-container"><img><div></div>
+    <div class="single-skill-container"><img><div></div>
+    <div class="single-skill-container"><img><div></div>
+    <div class="single-skill-container"><img><div></div> -->
+    </div>

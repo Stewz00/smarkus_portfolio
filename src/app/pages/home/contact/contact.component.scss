@@ -1,3 +1,7 @@
+#contact{
+    scroll-margin-top:80px;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -31,9 +35,10 @@ h3 {
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    border: none;
 
-    &:hover{
-        background-color:rgb(20, 20, 20)
+    &:hover {
+        background-color: rgb(20, 20, 20)
     }
 }
 
@@ -41,6 +46,8 @@ textarea {
     min-height: 100px;
     margin-bottom: 30px;
     font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border: none;
 }
 
 .resize-off {
@@ -50,20 +57,41 @@ textarea {
 input {
     height: 35px;
     font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border: none;
 }
 
 .pad-b-t {
     padding: 15px 0 15px 0;
 }
 
-@media (max-width: 1500px) {}
 
-@media (max-width: 1300px) {}
+@media (max-width: 1450px) {
+    .contact-container {
+        padding: 0 8% 5% 8%;
+    }
+}
 
 @media (max-width: 1000px) {}
 
-@media (max-width: 850px) {}
+@media (max-width: 800px) {
+    .contact-container {
+        padding: 0 8% 0 8%;
+        flex-direction: column;
+    }
+
+    .contact-left-side {
+        width: 100%;
+    }
+
+    .contact-right-side {
+        width: 100%;
+        margin-top: 1rem;
+        padding-left: 0;
+        margin-bottom: 4.5rem;
+    }
+}
 
 @media (max-width: 675px) {}
 
-@media (max-width: 600px) {}
+@media (max-width: 700px) {}
