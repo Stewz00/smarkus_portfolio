@@ -53,8 +53,6 @@ header {
             margin: 0;
 
         }
-
-
     }
 }
 
@@ -83,7 +81,7 @@ header {
     background: white;
     right: 0%;
     padding: 3.5% 5.5% 3.5% 2.5%;
-    transition: margin-right 0.5s;
+    transition: right 0.5s;
     border: 1px solid beige;
 
 }
@@ -97,8 +95,6 @@ header {
 
     }
 }
-
-
 
 
 @media (max-width:1300px) {
@@ -129,12 +125,15 @@ header {
         margin: 0px -16px 0px 0px;
 
         a {
-            margin: 0 0 0 16px;
+            margin: 0 0 0 0px;
             font-size: 20px;
 
+            &:first-child,
+            :last-child {
+                margin: 0;
+            }
+
             img {
-
-
                 margin-right: 20%;
                 height: 3rem;
                 width: 6rem;
@@ -177,6 +176,8 @@ header {
 
 
 @media (max-width: 600px) {
+
+
     .fixed {
         position: fixed;
         top: 0px;

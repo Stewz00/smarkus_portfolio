@@ -1,13 +1,13 @@
-$gold-color: #FEE383;
-
 h1 {
     font-size: 80px;
     font-weight: 700;
 }
-
+html,body{
+    overflow-x: hidden;
+}
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    overflow-x: hidden;
+   
 }

@@ -3,7 +3,7 @@
     >
     <a  href="#m-greeting"><img src="assets/images/portfolio-logo.png"></a>
     <img (click)="toggleMenu()" src="/assets/images/menubtn.ico">
-    <div [ngStyle]="{'margin-right':menuActive? '0em' : '-9em'}" [class.d-none]="!menuActive" class="mobile-nav-links">
+    <div [ngStyle]="{'right':menuActive? '0em' : '-10em'}" [class.d-none]="!menuActive" class="mobile-nav-links">
         <a (click)="toggleMenu()" align="right" class="mobile-nav-link" href="#skills">Skills</a>
         <a (click)="toggleMenu()" align="right" class="mobile-nav-link" href="#projects">Projects</a> 
         <a (click)="toggleMenu()" align="right" class="mobile-nav-link" href="#about">About</a>
