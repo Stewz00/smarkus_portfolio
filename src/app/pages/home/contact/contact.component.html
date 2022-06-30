@@ -6,14 +6,14 @@
             let me know if you are interested to work with me.</p>
     </div>
     <div class="contact-right-side">
-        <form>
+        <form method="post" action="https://markus-stitka.developerakademie.net/send_mail.php">
             <span class="pad-b-t">Name</span>
-            <input type="text" class="">
+            <input required name="name" type="text" class="">
             <span class="pad-b-t">Email</span>
-            <input type="email" class="">
+            <input required name="email"  type="email" class="">
             <span class="pad-b-t">Message</span>
-            <textarea type="text" class="resize-off "></textarea>
-            <button class ="go-btn pad-b-t">Let's get started</button>
+            <textarea required name="message" type="text" class="resize-off "></textarea>
+            <button type="submit" class ="go-btn pad-b-t">Let's get started</button>
         </form>
     </div>
 </div>

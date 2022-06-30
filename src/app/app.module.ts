@@ -17,6 +17,7 @@ import { AboutComponent } from './pages/home/about/about.component';
 import { ContactComponent } from './pages/home/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SkillsComponent } from './pages/home/skills/skills.component';
+import { SuccessComponent } from './pages/success/success.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { SkillsComponent } from './pages/home/skills/skills.component';
     AboutComponent,
     ContactComponent,
     SkillsComponent,
+    SuccessComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

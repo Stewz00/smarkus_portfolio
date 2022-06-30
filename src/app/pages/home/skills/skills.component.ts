@@ -9,7 +9,7 @@ export class SkillsComponent implements OnInit {
     skills: any[] = [
     {
       name: 'JavaScript',
-      urlPath: './assets/images/java script.png',
+      urlPath: './assets/images/jsicon.png',
     },
     {
       name: 'Angular',

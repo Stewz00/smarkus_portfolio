@@ -9,7 +9,7 @@
 
 .about-nature-img {
 
-    height: 250px;
+    height: 14rem;
     width: 100%;
     object-fit: cover;
 
@@ -85,7 +85,7 @@
     #about-text1 {
         display: none;
     }
-    
+
     .picture-container {
         padding: 0;
         margin-bottom: 6rem;
@@ -95,15 +95,16 @@
         right: 30%;
         bottom: -28%;
     }
-    
+
     .about-text {
         padding: 0 8% 0 8%;
     }
-    
+
     .signature {
         padding-left: 8%;
     }
 }
+
 @media (max-width: 400px) {
     .about-comment-box {
         right: unset;

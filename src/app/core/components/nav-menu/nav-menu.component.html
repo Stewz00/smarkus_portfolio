@@ -1,9 +1,9 @@
 <header [class.dyiedHeader]="(dyeHeaderBool && (router.url!='/imprint' && router.url!='/data-protection'))"
     [class.beige-header]="(router.url=='/imprint' || router.url=='/data-protection')" class="mobile-container fixed"
     >
+    <a  href="#m-greeting"><img src="assets/images/portfolio-logo.png"></a>
     <img (click)="toggleMenu()" src="/assets/images/menubtn.ico">
     <div [ngStyle]="{'margin-right':menuActive? '0em' : '-9em'}" [class.d-none]="!menuActive" class="mobile-nav-links">
-        <a (click)="toggleMenu()" align="right" class="mobile-nav-link" href="#m-greeting">Start</a>
         <a (click)="toggleMenu()" align="right" class="mobile-nav-link" href="#skills">Skills</a>
         <a (click)="toggleMenu()" align="right" class="mobile-nav-link" href="#projects">Projects</a> 
         <a (click)="toggleMenu()" align="right" class="mobile-nav-link" href="#about">About</a>
@@ -13,9 +13,10 @@
 <header [class.dyiedHeader]="(dyeHeaderBool && (router.url!='/imprint' && router.url!='/data-protection'))"
     [class.beige-header]="(router.url=='/imprint' || router.url=='/data-protection')" class="desktop-container fixed">
 
-
+    
+    <a class="logo" href="#greeting"><img src="assets/images/portfolio-logo.png"></a>
     <div class="nav-container">
-        <a href="#greeting">Start</a>
+        
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a> 
         <a href="#about">About</a>

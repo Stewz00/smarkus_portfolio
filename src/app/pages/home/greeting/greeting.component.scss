@@ -26,13 +26,16 @@
     position: absolute;
     display: flex;
     bottom: -25%;
-
+    a{
+        color: black;
+        text-decoration: none;
+    }
 }
 
 .socialm-btn {
     border: none;
     background-color: white;
-    font-size: 16px;
+    font-size: 24px;
     cursor: pointer;
     margin: 0 27px 0 0;
 
@@ -40,21 +43,21 @@
 
 .greetings-download-cv {
     position: absolute;
-    height: 75px;
-    width: 200px;
+    height: 5rem;
+    width: 16rem;
     bottom: -47%;
     background-color: #FEE383;
     border: none;
     cursor: pointer;
     font-weight: 200;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .right-side-greeting-bg {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    background-color: beige;
+    background-color: #f6f6f6;
     width: 100%;
 
     img {
@@ -68,11 +71,27 @@
     display: none;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1550px) {
+    .greetings-download-cv {
+            bottom: -12%;
+    
+        }
+    
+    
+        .socialm-btn-container {
+            bottom: 7%;
+        }
+    h1{
+        font-size: 70px;
+    }
+
+    .greeting-bg {
+            height: 40rem;
+        }
     .right-side-greeting-bg {
         img {
-
-            width: 43rem;
+            height: 35rem;
+            width: 40rem;
         }
     }
 }
@@ -134,6 +153,9 @@
 
     .socialm-btn-container {
         bottom: 14rem;
+        a{
+            font-size: 18px;
+        }
     }
 
     .greeting-bg {
@@ -211,7 +233,8 @@
 
         img {
             object-fit: cover;
-            height: 100vh;
+            object-position: 50% 15%;
+            height: 50vh;
             width: 100%;
         }
     }
