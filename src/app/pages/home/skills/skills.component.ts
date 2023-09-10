@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skills.component.scss', '../home.component.scss'],
 })
 export class SkillsComponent implements OnInit {
-    skills: any[] = [
+  skills: any[] = [
     {
       name: 'JavaScript',
       urlPath: './assets/images/jsicon.png',
@@ -42,6 +42,18 @@ export class SkillsComponent implements OnInit {
     {
       name: 'Databases',
       urlPath: './assets/images/icons8-database-52 2.png',
+    },
+    {
+      name: 'C#',
+      urlPath: './assets/images/Csharp_Logo.png',
+    },
+    {
+      name: 'Dotnet',
+      urlPath: './assets/images/dotnet6-logo.png',
+    },
+    {
+      name: 'Azure Pipelines',
+      urlPath: './assets/images/azurePipelines.png',
     },
   ];
   constructor() {}
