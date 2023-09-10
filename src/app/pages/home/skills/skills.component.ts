@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skills.component.scss', '../home.component.scss'],
 })
 export class SkillsComponent implements OnInit {
-  skills: any[] = [
+
+  skills: { name: string; urlPath: string }[] = [
     {
       name: 'JavaScript',
       urlPath: './assets/images/jsicon.png',
