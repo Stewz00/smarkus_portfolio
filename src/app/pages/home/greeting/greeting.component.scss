@@ -64,6 +64,7 @@
         height: 750px;
         width: 875px;
         object-fit: cover;
+        object-position: top;
     }
 }
 
@@ -233,7 +234,7 @@
 
         img {
             object-fit: cover;
-            object-position: 50% 15%;
+            object-position: 50% -10%;
             height: 50vh;
             width: 100%;
         }
